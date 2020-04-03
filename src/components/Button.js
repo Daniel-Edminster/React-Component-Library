@@ -1,9 +1,13 @@
 import React from 'react';
 // import './fonts.css';
 import './Button.css';
+import Icon from './Icon'
 
 const Button = (props) => {
     let classList = "";
+    let innerComponents = props.label;
+
+    console.log(props);
 
     let types = [
         'primary','primary-hollow','primary-muted',
@@ -34,12 +38,15 @@ const Button = (props) => {
         }
     }
  
- 
+    if(props.icon)
+    {
+        // innerComponents += `<Icon source=${props.icon} />`;
+    }
  
  
     return (
     <button className={classList}>
-        {props.label}
+        <Icon source={props.source} /> {innerComponents}
     </button> )
 }
 

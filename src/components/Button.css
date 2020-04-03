@@ -115,7 +115,7 @@ button:focus {
     color: #33A0FF;
     background: #ECF4FF;
     border-radius: 4px;
-    background-image: url("img/cart_2.png");
+    /* background-image: url("img/cart_2.png"); */
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 1.2em;
@@ -126,7 +126,7 @@ button:focus {
 .button-cart {
     background: #ECF4FF;
     border-radius: 4px;
-    background-image: url("img/cart_2.png");
+    /* background-image: url("img/cart_2.png"); */
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;

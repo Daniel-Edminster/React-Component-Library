@@ -4,6 +4,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
+// import Icon from './Icon';
 
 storiesOf('Button', module)
     .add('Primary', () => <Button type="primary" label="Do something"/>)
@@ -38,11 +39,12 @@ storiesOf('Button', module)
     .add('Default hollow large', () => <Button type="default-hollow" size="large" label="Do something"/>)
     .add('Default muted large', () => <Button type="default-muted" size="large" label="Do something"/>)
 
-    .add('Cart with text', () => <Button type="cart-text" label="Add To Cart"/>)
-    .add('Cart', () => <Button type="cart" />)
-    .add('Favorites with text', () => <Button type="favorites-text" label="Add To Favorites"/>)
-    .add('Favorites', () => <Button type="favorites" />)
+    // .add('Cart with text', () => <Button type="cart-text" label="Add To Cart"/>)
+    // .add('Cart', () => <Button type="cart" />)
+    // .add('Favorites with text', () => <Button type="favorites-text" label="Add To Favorites"/>)
+    // .add('Favorites', () => <Button type="favorites" />)
 
+    .add("Cart with text", () => <Button type="cart-text" label="Add to Cart" icon="blue-cart" />)
 
 
 storiesOf('Forms', module)
