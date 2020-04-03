@@ -1,0 +1,15 @@
+
+
+button {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    font-weight: 600;
+    height: 46px;
+    width: 150px;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-primary {
+    background: #33A0FF;
+}
