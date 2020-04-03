@@ -1,15 +1,159 @@
-
+* {
+    box-sizing: border-box;
+}
 
 button {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;    
     font-weight: 600;
     height: 46px;
     width: 150px;
-    font-size: 1em;
-    border-radius: 10px;
+    font-size: .875em;
+    border-radius: 4px;
     text-align: center;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.button-lg {
+    width: 171px;
+    height: 60px;
+    font-size: 1em;
 }
 
 .button-primary {
     background: #33A0FF;
+}
+.button-primary:hover {
+    background:#2E90E5;
+}
+.button-primary-hollow {
+    color: #33A0FF;
+    background: white;
+    border: 2px solid #33A0FF;
+    border-radius: 4px;
+}
+.button-primary-muted {
+    color: #33A0FF;
+    background: #ECF4FF;
+    border-radius: 4px;
+}
+
+.button-danger {
+    background: #FF4858;
+}
+.button-danger:hover {
+    background: #F53848;
+}
+.button-danger-hollow {
+    color:#FF4252;
+    background: white;
+    border: 2px solid #FF4858;
+    border-radius: 4px;
+}
+.button-danger-muted {
+    color: #FF4252;
+    background: #FDECEE;
+
+}
+
+.button-success {
+    background: #0AD00A;
+}
+.button-success:hover {
+    background: #07C107;
+}
+.button-success-hollow {
+    color: #0AD00A;
+    background: white;
+    border: 2px solid #66E142;
+}
+.button-success-muted {
+    color: #0AD00A;
+    background: #E7FBE5;
+
+}
+
+.button-warning {
+    background: #FFC600;
+}
+.button-warning:hover {
+    background: #EBB600;
+}
+.button-warning-hollow {
+    color: #FFC600;
+    background: white;
+    border: 2px solid #FFC600;
+}
+.button-warning-muted {
+    color: #FFC600;
+    background: #FDFAE4;
+}
+
+.button-default {
+    background: #22262A;
+}
+.button-default:hover {
+    background: #13161A;
+}
+.button-default-hollow {
+    color: #22262A;
+    background: white;
+    border: 2px solid #22262A;
+}
+.button-default-muted {
+    color: #22262A;
+    background: #F6F7F8;
+}
+
+.button-cart-text {
+    color: #33A0FF;
+    background: #ECF4FF;
+    border-radius: 4px;
+    background-image: url("img/cart_2.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 1.2em;
+    padding-left: 2em;
+    font-weight: 500;
+}
+
+.button-cart {
+    background: #ECF4FF;
+    border-radius: 4px;
+    background-image: url("img/cart_2.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 46px;
+    height: 46px;
+}
+
+.button-favorites-text {
+    color: #33A0FF;
+    background: #ECF4FF;
+    border-radius: 4px;
+    background-image: url("img/hearts.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 1.2em;
+    padding-left: 2em;
+    font-weight: 500;
+    width: 181px;
+}
+
+.button-favorites {
+    background: #ECF4FF;
+    border-radius: 4px;
+    background-image: url("img/hearts.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 46px;
+    height: 46px;
 }
