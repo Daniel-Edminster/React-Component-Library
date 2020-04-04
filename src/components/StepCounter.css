@@ -1,0 +1,62 @@
+.StepCounter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    min-width: 116px;
+    min-height: 46px;
+    max-width: 116px;
+    max-height: 46px;
+    background: #F6F7F8;
+    border-radius: 4px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.plusminus {
+    color: #33A0FF;
+    width: 33%;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    /* border: 1px solid red; */
+    /* align-self: baseline; */
+
+}
+
+.StepperInputContainer {
+    width: 33%;
+    user-select: none;
+
+}
+
+.StepperInput {
+    /* width: 33%; */
+    width: 2em;
+    max-width: 2em;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+    max-width: 30px;
+    text-align: center;
+    background: #F6F7F8;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    user-select: none;
+}
+
+.StepperInput:focus {
+    outline: none;
+    user-select: none; 
+}
+
+
+.minus {
+    margin-top: -.15em;
+}

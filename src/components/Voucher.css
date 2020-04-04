@@ -1,0 +1,40 @@
+.button-med {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    height: 46px;
+    width: 118px;
+    font-size: .875em;
+    /* border-radius: 4px; */
+    border-radius: 0px 4px 4px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    background: #33A0FF;
+    margin-left: -2px;
+}
+
+.button-large {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    height: 60px;
+    width: 118px;
+    font-size: .875em;
+    /* border-radius: 4px; */
+    border-radius: 0px 4px 4px 0px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    background: #33A0FF;
+    margin-left: -2px;
+}
+
+
+
+.Voucher {
+    display: flex;
+    flex-flow: row nowrap;
+}
