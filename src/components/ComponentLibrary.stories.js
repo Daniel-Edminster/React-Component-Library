@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+import React, { useCallback } from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
@@ -10,6 +10,12 @@ import StepCounter from './StepCounter';
 import Voucher from './Voucher';
 // import 'http://192.241.147.186/fonts/fonts.css';
 // import Icon from './Icon';
+
+const callbackDemo = (event) => {
+    event.preventDefault();
+    let input = document.querySelector(".Voucher > div > input");
+    alert(input.value);
+}
 
 storiesOf('Buttons', module)
     .add('Primary', () => <Button type="primary" label="Do something"/>)
@@ -61,6 +67,6 @@ storiesOf('Forms', module)
     .add("Select input muted med", () => <SelectInput size="med" type="muted" />)
     .add("Select input muted large", () => <SelectInput size="large" type="muted" />)
     .add("Step Counter", () => <StepCounter value="0" min="-5" max="5" step="1" />)
-    .add("Voucher", () => <Voucher size="med" text="Redeem" placeholder="ABC123456789"/>)
-    .add("Voucher large", () => <Voucher size="large" text="Redeem" placeholder="Voucher Code"/>)
+    .add("Voucher", () => <Voucher size="med" text="Redeem" placeholder="ABC123456789" action={callbackDemo} />)
+    .add("Voucher large", () => <Voucher size="large" text="Redeem" placeholder="Voucher Code" action={callbackDemo} />)
 // .add('Success', () => <Button type="success" label="Do something"/>)

@@ -16,11 +16,13 @@ const Voucher = (props) => {
 
     FormInputClassList += ` input-${size}`;
 
+
+
     
     return(
         <div className="Voucher">
         <FormInput placeholder={placeholder} size={size} />
-        <button className={classList}> {text} </button>
+        <button className={classList} onClick={props.action}> {text} </button>
         </div>
     );
 
