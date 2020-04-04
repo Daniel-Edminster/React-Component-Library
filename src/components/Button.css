@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+@import url('http://192.241.147.186/fonts/fonts.css');
+
 button {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;    
     font-weight: 600;
@@ -14,6 +16,20 @@ button {
     font-weight: 300;
     cursor: pointer;
     border: none;
+}
+
+button > * {
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center; */
+}
+button > img {
+    /* margin: auto 0; */
+    /* border: 1px solid red; */
+    display: inline-block;
+ 
 }
 
 button:focus {
@@ -116,11 +132,12 @@ button:focus {
     background: #ECF4FF;
     border-radius: 4px;
     /* background-image: url("img/cart_2.png"); */
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 1.2em;
-    padding-left: 2em;
+    /* background-repeat: no-repeat;
+    background-position-y: center; */
+    /* background-position-x: 1.2em; */
+    /* padding-left: 2em; */
     font-weight: 500;
+    min-width: 150px;
 }
 
 .button-cart {
@@ -138,11 +155,6 @@ button:focus {
     color: #33A0FF;
     background: #ECF4FF;
     border-radius: 4px;
-    background-image: url("img/hearts.png");
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 1.2em;
-    padding-left: 2em;
     font-weight: 500;
     width: 181px;
 }
@@ -154,6 +166,30 @@ button:focus {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
+    width: 46px;
+    height: 46px;
+}
+
+/* .icon {
+    float: left;
+    border: 1px solid red;
+    margin-right: -20px;
+} */
+
+.buttonContent {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.textWithIcon {
+    padding-left: 1em;
+}
+
+.button-icon-only {
+    background: #ECF4FF;
+    border-radius: 4px;
     width: 46px;
     height: 46px;
 }

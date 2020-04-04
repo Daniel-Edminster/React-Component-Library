@@ -1,0 +1,42 @@
+.SelectInput-input {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    color: #22262A;
+    font-size: 1em;
+    height: 38px;
+    width: 300px;
+    border: 2px solid #f1f3f4;
+    border-radius: .2em;
+    padding-left: .8em;
+    display: block;
+}
+
+select {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    color: #22262A;
+    font-size: 1em;
+    height: 38px;
+    max-width: 200px;
+    border: 2px solid #f1f3f4;
+    border-radius: .2em;
+    padding-left: .8em;
+ 
+    display: block;
+}
+
+select:focus {
+    outline: none;
+}
+
+.med {
+    height: 46px;
+    width: 300px;
+}
+
+.large {
+    height: 60px;
+    width: 300px;
+}
+
+.muted { 
+    background: #f1f3f4;
+}

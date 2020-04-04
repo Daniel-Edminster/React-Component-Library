@@ -1,0 +1,48 @@
+
+
+.FormInput-label {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    color: black;
+    font-size: .875em;
+    font-weight: bold;
+    letter-spacing: .03em;
+
+}
+
+.FormInput-input {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    color: #22262A;
+    font-size: 1em;
+    height: 38px;
+    width: 300px;
+    border: 2px solid #f1f3f4;
+    border-radius: .2em;
+    padding-left: .8em;
+    display: block;
+}
+
+.FormInput-input-med {
+
+    height: 46px;
+
+}
+
+.FormInput-input-large {
+
+    height: 60px;
+
+}
+
+.FormInput-input::placeholder {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;    
+    font-size: 1em;
+    color: #707070;
+
+}
+
+.FormInput-input:focus {
+    outline: none;
+
+}
+
+
