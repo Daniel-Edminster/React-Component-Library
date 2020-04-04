@@ -1,13 +1,13 @@
 import React from 'react';
 // import './fonts.css';
 import './Button.css';
-import Icon from './Icon'
+import Icon from './Icon';
 
 const Button = (props) => {
     let classList = "";
     let innerComponents = props.label;
 
-    console.log(props);
+    // console.log(props.icon);
 
     let types = [
         'primary','primary-hollow','primary-muted',
@@ -46,7 +46,8 @@ const Button = (props) => {
  
     return (
     <button className={classList}>
-        <Icon source={props.source} /> {innerComponents}
+        <Icon source={props.icon} /> {innerComponents}
+        {/* <img src="img/cart-2.png" /> */}
     </button> )
 }
 
