@@ -1,0 +1,71 @@
+.Checkbox-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    /* justify-content: flex-start; */
+
+}
+
+.Checkbox-default {
+    height: 1.125em;
+    width: 1.125em;
+    border: 2px solid #22262A;
+    border-radius: 2px;
+    background: none;
+    display: inline-block;
+}
+
+.checked {
+    background: url('img/v.svg') #22262A;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    animation: fadeIn ease .5s;
+}
+
+.Checkbox-primary {
+    height: 1.125em;
+    width: 1.125em;
+    border: 2px solid #33A0FF;
+    border-radius: 2px;
+    background: none;
+    display: inline-block;
+}
+
+.checked-primary {
+    background: url('img/v.svg') #33A0FF;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    animation: fadeInPrimary ease .5s;
+    /* animation-fill-mode: forwards;  */
+}
+
+.check-label {
+    padding-left: .4em;
+    padding-top: .05em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeInPrimary {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
