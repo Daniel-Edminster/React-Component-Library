@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-@import url('http://192.241.147.186/fonts/fonts.css');
 
 button {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;    
@@ -138,6 +137,7 @@ button:focus {
     /* padding-left: 2em; */
     font-weight: 500;
     min-width: 150px;
+    height: 46px;
 }
 
 .button-cart {
@@ -169,12 +169,6 @@ button:focus {
     width: 46px;
     height: 46px;
 }
-
-/* .icon {
-    float: left;
-    border: 1px solid red;
-    margin-right: -20px;
-} */
 
 .buttonContent {
     display: flex;

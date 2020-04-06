@@ -141,6 +141,7 @@ const ProductBlock = (props) =>
             return(
                 <div className={containerClassList} onLoad={setOverlayDimensions}>
                 <div className="ProductBlock-image" >
+                    <div className="hot">Hot</div>
                     <div className="ProductBlock-image-overlay">
                         <a href="#" className="ProductBlock-image-overlay-link"><Icon source={favoritesIconSource} /></a>
                         <a href="#" className="ProductBlock-image-overlay-link"><Icon source={cartIconSource} /></a>
@@ -150,15 +151,33 @@ const ProductBlock = (props) =>
                 <div className={`ProductBlock-${orientation}-content`}>
 
                 <div className="product-name">{name}</div>
-                <div className="ratings-container">{renderRatings()}</div>
 
-                <div className="description-container">{description}</div>
+                <div className="ratings-control-container">
+                    <div className="ratings-container">{renderRatings()}</div>
+                    <div className="num-reviews">0 reviews</div>
+                    <div className="review-link">write a review</div>
+                </div>
                 
+
+                <hr className={hrClassList} />
+
                 <div className="price-container">
                     <div className="sale-price">${salePrice}</div>
                     <div className="permanent-price">${permPrice}</div>
     
                 </div>
+
+                <div className="description-container">{description}</div>
+
+                <div className="product-buttons">
+
+                <Button type="cart-text" label="Add to Cart" icon="blue-cart" /> &nbsp; &nbsp; &nbsp;
+
+                <Button type="icon-only" icon="blue-heart" />
+
+                </div>
+                
+
                 </div>
             
             </div>
