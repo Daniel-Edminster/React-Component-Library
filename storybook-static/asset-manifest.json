@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62705c36.chunk.css",
+    "main.js": "/main.7f6ba539f674a4593238.bundle.js",
+    "main.css.map": "/static/css/main.62705c36.chunk.css.map",
+    "main.js.map": "/main.7f6ba539f674a4593238.bundle.js.map",
+    "runtime~main.js": "/runtime~main.7f6ba539f674a4593238.bundle.js",
+    "runtime~main.js.map": "/runtime~main.7f6ba539f674a4593238.bundle.js.map",
+    "vendors~main.js": "/vendors~main.7f6ba539f674a4593238.bundle.js",
+    "vendors~main.js.map": "/vendors~main.7f6ba539f674a4593238.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.41631874014aacdfcf938074202f361e.js": "/precache-manifest.41631874014aacdfcf938074202f361e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/CartCircle.svg": "/static/media/CartCircle.ae62043a.svg",
+    "static/media/CartCircleHollow.svg": "/static/media/CartCircleHollow.51f54540.svg",
+    "static/media/HeartCircle.svg": "/static/media/HeartCircle.ac5f4558.svg",
+    "static/media/HeartCircleHollow.svg": "/static/media/HeartCircleHollow.36d3923b.svg",
+    "static/media/cart_2.png": "/static/media/cart_2.7695d2b4.png",
+    "static/media/headphones.png": "/static/media/headphones.c7538c30.png",
+    "static/media/Button.css": "/static/media/hearts.7a05ce7d.png",
+    "static/media/laptop.svg": "/static/media/laptop.38253f2b.svg",
+    "static/media/starGrey.svg": "/static/media/starGrey.b8934614.svg",
+    "static/media/starYellow.svg": "/static/media/starYellow.dee1edc9.svg",
+    "static/media/Checkbox.css": "/static/media/v.f332df52.svg",
+    "vendors~main.7f6ba539f674a4593238.bundle.js.LICENSE.txt": "/vendors~main.7f6ba539f674a4593238.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.7f6ba539f674a4593238.bundle.js",
+    "vendors~main.7f6ba539f674a4593238.bundle.js",
+    "static/css/main.62705c36.chunk.css",
+    "main.7f6ba539f674a4593238.bundle.js"
+  ]
+}
